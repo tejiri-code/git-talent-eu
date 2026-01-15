@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {
+    root: "/Users/evelyn/.gemini/antigravity/scratch/git-talent-eu",
+  },
 };
 
 export default nextConfig;

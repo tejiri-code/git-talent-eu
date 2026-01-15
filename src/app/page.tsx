@@ -7,7 +7,6 @@ export default function Home() {
         <div className="logo">GitTalent<span>EU</span></div>
         <div className="nav-links">
           <Link href="#features">Features</Link>
-          <Link href="#how-it-works">How it works</Link>
           <Link href="/auth/signin" className="btn-secondary">Recruiter Login</Link>
           <Link href="/auth/signin" className="btn-primary">Join as Engineer</Link>
         </div>
